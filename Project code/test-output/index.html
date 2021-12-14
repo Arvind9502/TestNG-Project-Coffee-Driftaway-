@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 11 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,12 +51,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\admin\git\project\Project code\testng.xml</span>
+                    <span>C:\Users\admin\git\TestNG-Project-Coffee-Driftaway-\Project code\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,71 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">41 methods,   41 passed</span>
+                    <span class="method-stats">17 methods, 11 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="a_login">a_login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="b_Dashboard">b_Dashboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="c_shippingAddress">c_shippingAddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="d_Billingaddress">d_Billingaddress</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="e_Subscription">e_Subscription</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="f_Orders">f_Orders</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="g_ColdBrew">g_ColdBrew</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="h_MyPoints">h_MyPoints</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="i_SavedCards">i_SavedCards</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="j_UserDetails">j_UserDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="k_ReferFriends">k_ReferFriends</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,47 +168,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.view_coffee" class="method navigator-link" hash-for-method="a">a</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.About" class="method navigator-link" hash-for-method="a_About">a_About</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Help" class="method navigator-link" hash-for-method="a_Help">a_Help</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Gift" class="method navigator-link" hash-for-method="a_getlist">a_getlist</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestNG.SUSTAINABILITY" class="method navigator-link" hash-for-method="a_getlist">a_getlist</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Shop" class="method navigator-link" hash-for-method="a_getlist">a_getlist</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="a_login">a_login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.view_coffee" class="method navigator-link" hash-for-method="b">b</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.About" class="method navigator-link" hash-for-method="b_AboutUs">b_AboutUs</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -154,47 +178,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="b_Dashboard">b_Dashboard</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Help" class="method navigator-link" hash-for-method="b_HelpCenter">b_HelpCenter</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Shop" class="method navigator-link" hash-for-method="b_Subscription">b_Subscription</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Gift" class="method navigator-link" hash-for-method="b_subscription">b_subscription</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestNG.SUSTAINABILITY" class="method navigator-link" hash-for-method="c_EcoFriendly">c_EcoFriendly</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.About" class="method navigator-link" hash-for-method="c_OurStory">c_OurStory</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Gift" class="method navigator-link" hash-for-method="c_SingleBag">c_SingleBag</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Shop" class="method navigator-link" hash-for-method="c_SingleBags">c_SingleBags</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="c_shippingAddress">c_shippingAddress</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -204,107 +188,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="d_Billingaddress">d_Billingaddress</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Shop" class="method navigator-link" hash-for-method="d_ColdBrew">d_ColdBrew</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Gift" class="method navigator-link" hash-for-method="d_Virtual">d_Virtual</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.About" class="method navigator-link" hash-for-method="e_CoffeeCadmy">e_CoffeeCadmy</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Shop" class="method navigator-link" hash-for-method="e_CoffeeGear">e_CoffeeGear</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Gift" class="method navigator-link" hash-for-method="e_ExplorerKit">e_ExplorerKit</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestNG.SUSTAINABILITY" class="method navigator-link" hash-for-method="e_FarmerFeedback">e_FarmerFeedback</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="e_Subscription">e_Subscription</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.About" class="method navigator-link" hash-for-method="f_AccessReviews">f_AccessReviews</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="TestNG.SUSTAINABILITY" class="method navigator-link" hash-for-method="f_CarbonNatural">f_CarbonNatural</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="f_Orders">f_Orders</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Shop" class="method navigator-link" hash-for-method="f_VirtualTest">f_VirtualTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Gift" class="method navigator-link" hash-for-method="f_recieved">f_recieved</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="g_ColdBrew">g_ColdBrew</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.Shop" class="method navigator-link" hash-for-method="g_ExplorerKit">g_ExplorerKit</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.About" class="method navigator-link" hash-for-method="g_PressKit">g_PressKit</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.SUSTAINABILITY" class="method navigator-link" hash-for-method="g_PriceTrabsparency">g_PriceTrabsparency</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="h_MyPoints">h_MyPoints</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="i_SavedCards">i_SavedCards</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="j_UserDetails">j_UserDetails</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="TestNG.login" class="method navigator-link" hash-for-method="k_ReferFriends">k_ReferFriends</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -319,88 +208,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestNG.Shop</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="a_getlist">
-                  </a> <!-- a_getlist -->
-                  <span class="method-name">a_getlist</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="b_Subscription">
-                  </a> <!-- b_Subscription -->
-                  <span class="method-name">b_Subscription</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="c_SingleBags">
-                  </a> <!-- c_SingleBags -->
-                  <span class="method-name">c_SingleBags</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="d_ColdBrew">
-                  </a> <!-- d_ColdBrew -->
-                  <span class="method-name">d_ColdBrew</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="e_CoffeeGear">
-                  </a> <!-- e_CoffeeGear -->
-                  <span class="method-name">e_CoffeeGear</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="f_VirtualTest">
-                  </a> <!-- f_VirtualTest -->
-                  <span class="method-name">f_VirtualTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="g_ExplorerKit">
-                  </a> <!-- g_ExplorerKit -->
-                  <span class="method-name">g_ExplorerKit</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestNG.view_coffee</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="a">
-                  </a> <!-- a -->
-                  <span class="method-name">a</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="b">
-                  </a> <!-- b -->
-                  <span class="method-name">b</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">TestNG.login</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -409,6 +219,28 @@
                   <a name="a_login">
                   </a> <!-- a_login -->
                   <span class="method-name">a_login</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #username
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-EFR18P0&apos;, ip: &apos;192.168.184.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=id, value=username}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TestNG.login.a_login(login.java:54)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -416,6 +248,28 @@
                   <a name="b_Dashboard">
                   </a> <!-- b_Dashboard -->
                   <span class="method-name">b_Dashboard</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[2]/div/div[1]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-EFR18P0&apos;, ip: &apos;192.168.184.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[2]/div/div[1]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TestNG.login.b_Dashboard(login.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -423,6 +277,28 @@
                   <a name="c_shippingAddress">
                   </a> <!-- c_shippingAddress -->
                   <span class="method-name">c_shippingAddress</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[2]/div/div[2]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-EFR18P0&apos;, ip: &apos;192.168.184.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[2]/div/div[2]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TestNG.login.c_shippingAddress(login.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -430,6 +306,28 @@
                   <a name="d_Billingaddress">
                   </a> <!-- d_Billingaddress -->
                   <span class="method-name">d_Billingaddress</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[3]/div[1]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-EFR18P0&apos;, ip: &apos;192.168.184.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[3]/div[1]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TestNG.login.d_Billingaddress(login.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -437,6 +335,28 @@
                   <a name="e_Subscription">
                   </a> <!-- e_Subscription -->
                   <span class="method-name">e_Subscription</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[1]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-EFR18P0&apos;, ip: &apos;192.168.184.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[1]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TestNG.login.e_Subscription(login.java:170)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -444,6 +364,28 @@
                   <a name="f_Orders">
                   </a> <!-- f_Orders -->
                   <span class="method-name">f_Orders</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[8]/main/article/div/div/nav/ul/li[3]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-EFR18P0&apos;, ip: &apos;192.168.184.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[8]/main/article/div/div/nav/ul/li[3]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TestNG.login.f_Orders(login.java:183)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -451,6 +393,28 @@
                   <a name="g_ColdBrew">
                   </a> <!-- g_ColdBrew -->
                   <span class="method-name">g_ColdBrew</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[5]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-EFR18P0&apos;, ip: &apos;192.168.184.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[5]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TestNG.login.g_ColdBrew(login.java:191)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -458,6 +422,28 @@
                   <a name="h_MyPoints">
                   </a> <!-- h_MyPoints -->
                   <span class="method-name">h_MyPoints</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[6]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-EFR18P0&apos;, ip: &apos;192.168.184.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[6]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TestNG.login.h_MyPoints(login.java:198)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -465,6 +451,28 @@
                   <a name="i_SavedCards">
                   </a> <!-- i_SavedCards -->
                   <span class="method-name">i_SavedCards</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[7]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-EFR18P0&apos;, ip: &apos;192.168.184.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[7]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TestNG.login.i_SavedCards(login.java:204)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -472,6 +480,28 @@
                   <a name="j_UserDetails">
                   </a> <!-- j_UserDetails -->
                   <span class="method-name">j_UserDetails</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[8]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-EFR18P0&apos;, ip: &apos;192.168.184.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[8]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TestNG.login.j_UserDetails(login.java:209)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -479,132 +509,32 @@
                   <a name="k_ReferFriends">
                   </a> <!-- k_ReferFriends -->
                   <span class="method-name">k_ReferFriends</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[9]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-EFR18P0&apos;, ip: &apos;192.168.184.180&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[9]/a}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at TestNG.login.k_ReferFriends(login.java:216)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestNG.Help</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="a_Help">
-                  </a> <!-- a_Help -->
-                  <span class="method-name">a_Help</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="b_HelpCenter">
-                  </a> <!-- b_HelpCenter -->
-                  <span class="method-name">b_HelpCenter</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestNG.About</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="a_About">
-                  </a> <!-- a_About -->
-                  <span class="method-name">a_About</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="b_AboutUs">
-                  </a> <!-- b_AboutUs -->
-                  <span class="method-name">b_AboutUs</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="c_OurStory">
-                  </a> <!-- c_OurStory -->
-                  <span class="method-name">c_OurStory</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="e_CoffeeCadmy">
-                  </a> <!-- e_CoffeeCadmy -->
-                  <span class="method-name">e_CoffeeCadmy</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="f_AccessReviews">
-                  </a> <!-- f_AccessReviews -->
-                  <span class="method-name">f_AccessReviews</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="g_PressKit">
-                  </a> <!-- g_PressKit -->
-                  <span class="method-name">g_PressKit</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">TestNG.Gift</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="a_getlist">
-                  </a> <!-- a_getlist -->
-                  <span class="method-name">a_getlist</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="b_subscription">
-                  </a> <!-- b_subscription -->
-                  <span class="method-name">b_subscription</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="c_SingleBag">
-                  </a> <!-- c_SingleBag -->
-                  <span class="method-name">c_SingleBag</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="d_Virtual">
-                  </a> <!-- d_Virtual -->
-                  <span class="method-name">d_Virtual</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="e_ExplorerKit">
-                  </a> <!-- e_ExplorerKit -->
-                  <span class="method-name">e_ExplorerKit</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="f_recieved">
-                  </a> <!-- f_recieved -->
-                  <span class="method-name">f_recieved</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -653,36 +583,28 @@
                   <span class="method-name">f_CarbonNatural</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="g_PriceTrabsparency">
-                  </a> <!-- g_PriceTrabsparency -->
-                  <span class="method-name">g_PriceTrabsparency</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\admin\git\project\Project code\testng.xml</span>
+            <span class="header-content">C:\Users\admin\git\TestNG-Project-Coffee-Driftaway-\Project code\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Test1&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;TestNG.SUSTAINABILITY&quot;/&gt;
-      &lt;class name=&quot;TestNG.login&quot;/&gt;
-      &lt;class name=&quot;TestNG.Gift&quot;/&gt;
-      &lt;class name=&quot;TestNG.About&quot;/&gt;
-      &lt;class name=&quot;TestNG.Help&quot;/&gt;
-      &lt;class name=&quot;TestNG.Shop&quot;/&gt;
-      &lt;class name=&quot;TestNG.view_coffee&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Test2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestNG.login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -694,7 +616,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (7 classes)</span>
+                <span class="test-name">Test1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -720,176 +645,80 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(41);
+data.addRows(17);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'e_FarmerFeedback')
 data.setCell(0, 2, 'TestNG.SUSTAINABILITY')
-data.setCell(0, 3, 50234);
+data.setCell(0, 3, 71138);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'a')
-data.setCell(1, 2, 'TestNG.view_coffee')
-data.setCell(1, 3, 29789);
+data.setCell(1, 1, 'c_EcoFriendly')
+data.setCell(1, 2, 'TestNG.SUSTAINABILITY')
+data.setCell(1, 3, 4582);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'c_shippingAddress')
-data.setCell(2, 2, 'TestNG.login')
-data.setCell(2, 3, 24039);
+data.setCell(2, 1, 'd_BeanForBean')
+data.setCell(2, 2, 'TestNG.SUSTAINABILITY')
+data.setCell(2, 3, 3291);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'f_VirtualTest')
-data.setCell(3, 2, 'TestNG.Shop')
-data.setCell(3, 3, 17312);
+data.setCell(3, 1, 'f_CarbonNatural')
+data.setCell(3, 2, 'TestNG.SUSTAINABILITY')
+data.setCell(3, 3, 3036);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'a_login')
 data.setCell(4, 2, 'TestNG.login')
-data.setCell(4, 3, 15240);
+data.setCell(4, 3, 2168);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'd_Billingaddress')
-data.setCell(5, 2, 'TestNG.login')
-data.setCell(5, 3, 14255);
+data.setCell(5, 1, 'b_CoffeeStories')
+data.setCell(5, 2, 'TestNG.SUSTAINABILITY')
+data.setCell(5, 3, 214);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'g_PressKit')
-data.setCell(6, 2, 'TestNG.About')
-data.setCell(6, 3, 13846);
+data.setCell(6, 1, 'a_getlist')
+data.setCell(6, 2, 'TestNG.SUSTAINABILITY')
+data.setCell(6, 3, 141);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'c_SingleBags')
-data.setCell(7, 2, 'TestNG.Shop')
-data.setCell(7, 3, 13014);
+data.setCell(7, 1, 'd_Billingaddress')
+data.setCell(7, 2, 'TestNG.login')
+data.setCell(7, 3, 14);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'b_Dashboard')
+data.setCell(8, 1, 'e_Subscription')
 data.setCell(8, 2, 'TestNG.login')
-data.setCell(8, 3, 11213);
+data.setCell(8, 3, 12);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'f_AccessReviews')
-data.setCell(9, 2, 'TestNG.About')
-data.setCell(9, 3, 10833);
+data.setCell(9, 1, 'c_shippingAddress')
+data.setCell(9, 2, 'TestNG.login')
+data.setCell(9, 3, 11);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'g_ExplorerKit')
-data.setCell(10, 2, 'TestNG.Shop')
-data.setCell(10, 3, 10302);
+data.setCell(10, 1, 'i_SavedCards')
+data.setCell(10, 2, 'TestNG.login')
+data.setCell(10, 3, 11);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'f_CarbonNatural')
-data.setCell(11, 2, 'TestNG.SUSTAINABILITY')
-data.setCell(11, 3, 7752);
+data.setCell(11, 1, 'k_ReferFriends')
+data.setCell(11, 2, 'TestNG.login')
+data.setCell(11, 3, 11);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'b_Subscription')
-data.setCell(12, 2, 'TestNG.Shop')
-data.setCell(12, 3, 7641);
+data.setCell(12, 1, 'b_Dashboard')
+data.setCell(12, 2, 'TestNG.login')
+data.setCell(12, 3, 11);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'g_PriceTrabsparency')
-data.setCell(13, 2, 'TestNG.SUSTAINABILITY')
-data.setCell(13, 3, 7591);
+data.setCell(13, 1, 'h_MyPoints')
+data.setCell(13, 2, 'TestNG.login')
+data.setCell(13, 3, 10);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'b_AboutUs')
-data.setCell(14, 2, 'TestNG.About')
-data.setCell(14, 3, 7026);
+data.setCell(14, 1, 'g_ColdBrew')
+data.setCell(14, 2, 'TestNG.login')
+data.setCell(14, 3, 10);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'c_SingleBag')
-data.setCell(15, 2, 'TestNG.Gift')
-data.setCell(15, 3, 6737);
+data.setCell(15, 1, 'j_UserDetails')
+data.setCell(15, 2, 'TestNG.login')
+data.setCell(15, 3, 9);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'k_ReferFriends')
+data.setCell(16, 1, 'f_Orders')
 data.setCell(16, 2, 'TestNG.login')
-data.setCell(16, 3, 6477);
-data.setCell(17, 0, 17)
-data.setCell(17, 1, 'e_CoffeeGear')
-data.setCell(17, 2, 'TestNG.Shop')
-data.setCell(17, 3, 6410);
-data.setCell(18, 0, 18)
-data.setCell(18, 1, 'd_ColdBrew')
-data.setCell(18, 2, 'TestNG.Shop')
-data.setCell(18, 3, 6110);
-data.setCell(19, 0, 19)
-data.setCell(19, 1, 'c_EcoFriendly')
-data.setCell(19, 2, 'TestNG.SUSTAINABILITY')
-data.setCell(19, 3, 6035);
-data.setCell(20, 0, 20)
-data.setCell(20, 1, 'b_HelpCenter')
-data.setCell(20, 2, 'TestNG.Help')
-data.setCell(20, 3, 5345);
-data.setCell(21, 0, 21)
-data.setCell(21, 1, 'd_Virtual')
-data.setCell(21, 2, 'TestNG.Gift')
-data.setCell(21, 3, 4845);
-data.setCell(22, 0, 22)
-data.setCell(22, 1, 'b_subscription')
-data.setCell(22, 2, 'TestNG.Gift')
-data.setCell(22, 3, 4465);
-data.setCell(23, 0, 23)
-data.setCell(23, 1, 'e_Subscription')
-data.setCell(23, 2, 'TestNG.login')
-data.setCell(23, 3, 4260);
-data.setCell(24, 0, 24)
-data.setCell(24, 1, 'd_BeanForBean')
-data.setCell(24, 2, 'TestNG.SUSTAINABILITY')
-data.setCell(24, 3, 4233);
-data.setCell(25, 0, 25)
-data.setCell(25, 1, 'e_CoffeeCadmy')
-data.setCell(25, 2, 'TestNG.About')
-data.setCell(25, 3, 4216);
-data.setCell(26, 0, 26)
-data.setCell(26, 1, 'i_SavedCards')
-data.setCell(26, 2, 'TestNG.login')
-data.setCell(26, 3, 4134);
-data.setCell(27, 0, 27)
-data.setCell(27, 1, 'c_OurStory')
-data.setCell(27, 2, 'TestNG.About')
-data.setCell(27, 3, 3878);
-data.setCell(28, 0, 28)
-data.setCell(28, 1, 'f_recieved')
-data.setCell(28, 2, 'TestNG.Gift')
-data.setCell(28, 3, 3196);
-data.setCell(29, 0, 29)
-data.setCell(29, 1, 'e_ExplorerKit')
-data.setCell(29, 2, 'TestNG.Gift')
-data.setCell(29, 3, 3049);
-data.setCell(30, 0, 30)
-data.setCell(30, 1, 'j_UserDetails')
-data.setCell(30, 2, 'TestNG.login')
-data.setCell(30, 3, 2604);
-data.setCell(31, 0, 31)
-data.setCell(31, 1, 'f_Orders')
-data.setCell(31, 2, 'TestNG.login')
-data.setCell(31, 3, 2530);
-data.setCell(32, 0, 32)
-data.setCell(32, 1, 'h_MyPoints')
-data.setCell(32, 2, 'TestNG.login')
-data.setCell(32, 3, 1899);
-data.setCell(33, 0, 33)
-data.setCell(33, 1, 'b')
-data.setCell(33, 2, 'TestNG.view_coffee')
-data.setCell(33, 3, 1870);
-data.setCell(34, 0, 34)
-data.setCell(34, 1, 'g_ColdBrew')
-data.setCell(34, 2, 'TestNG.login')
-data.setCell(34, 3, 1806);
-data.setCell(35, 0, 35)
-data.setCell(35, 1, 'b_CoffeeStories')
-data.setCell(35, 2, 'TestNG.SUSTAINABILITY')
-data.setCell(35, 3, 216);
-data.setCell(36, 0, 36)
-data.setCell(36, 1, 'a_getlist')
-data.setCell(36, 2, 'TestNG.SUSTAINABILITY')
-data.setCell(36, 3, 187);
-data.setCell(37, 0, 37)
-data.setCell(37, 1, 'a_About')
-data.setCell(37, 2, 'TestNG.About')
-data.setCell(37, 3, 179);
-data.setCell(38, 0, 38)
-data.setCell(38, 1, 'a_getlist')
-data.setCell(38, 2, 'TestNG.Shop')
-data.setCell(38, 3, 166);
-data.setCell(39, 0, 39)
-data.setCell(39, 1, 'a_getlist')
-data.setCell(39, 2, 'TestNG.Gift')
-data.setCell(39, 3, 160);
-data.setCell(40, 0, 40)
-data.setCell(40, 1, 'a_Help')
-data.setCell(40, 2, 'TestNG.Help')
-data.setCell(40, 3, 64);
+data.setCell(16, 3, 9);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -915,339 +744,141 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.About</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TestNG.SUSTAINABILITY</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">geturl</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.Gift</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">geturl</span>
-                <span class="method-start">17450 ms</span>
-              </div> <!-- configuration-suite before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.Help</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">geturl</span>
-                <span class="method-start">37251 ms</span>
-              </div> <!-- configuration-suite before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.SUSTAINABILITY</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">geturl</span>
-                <span class="method-start">59927 ms</span>
-              </div> <!-- configuration-suite before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.Shop</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">geturl</span>
-                <span class="method-start">81144 ms</span>
-              </div> <!-- configuration-suite before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
               <div class="chronological-class-name">TestNG.login</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">geturl</span>
-                <span class="method-start">97567 ms</span>
+                <span class="method-start">12715 ms</span>
               </div> <!-- configuration-suite before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.view_coffee</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
-                <span class="method-name">geturl</span>
-                <span class="method-start">118738 ms</span>
-              </div> <!-- configuration-suite before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.About</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">alert</span>
-                <span class="method-start">141397 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.Gift</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">alert</span>
-                <span class="method-start">141956 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.Help</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">alert</span>
-                <span class="method-start">142562 ms</span>
-              </div> <!-- configuration-test before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestNG.SUSTAINABILITY</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">alert</span>
-                <span class="method-start">143193 ms</span>
+                <span class="method-start">26007 ms</span>
               </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.Shop</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">alert</span>
-                <span class="method-start">143824 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.login</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">alert</span>
-                <span class="method-start">144911 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.view_coffee</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">alert</span>
-                <span class="method-start">145766 ms</span>
-              </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.SUSTAINABILITY</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">a_getlist</span>
-                <span class="method-start">146199 ms</span>
+                <span class="method-start">26608 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">b_CoffeeStories</span>
-                <span class="method-start">146393 ms</span>
+                <span class="method-start">26758 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">c_EcoFriendly</span>
-                <span class="method-start">146611 ms</span>
+                <span class="method-start">26973 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">d_BeanForBean</span>
-                <span class="method-start">152648 ms</span>
+                <span class="method-start">31556 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">e_FarmerFeedback</span>
-                <span class="method-start">156883 ms</span>
+                <span class="method-start">34848 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">f_CarbonNatural</span>
-                <span class="method-start">207118 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">g_PriceTrabsparency</span>
-                <span class="method-start">214872 ms</span>
+                <span class="method-start">105989 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestNG.login</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">alert</span>
+                <span class="method-start">109147 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">a_login</span>
-                <span class="method-start">222470 ms</span>
+                <span class="method-start">110049 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">b_Dashboard</span>
-                <span class="method-start">237711 ms</span>
+                <span class="method-start">112221 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">c_shippingAddress</span>
-                <span class="method-start">248925 ms</span>
+                <span class="method-start">112234 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">d_Billingaddress</span>
-                <span class="method-start">272965 ms</span>
+                <span class="method-start">112247 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">e_Subscription</span>
-                <span class="method-start">287222 ms</span>
+                <span class="method-start">112264 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">f_Orders</span>
-                <span class="method-start">291483 ms</span>
+                <span class="method-start">112279 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">g_ColdBrew</span>
-                <span class="method-start">294015 ms</span>
+                <span class="method-start">112290 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">h_MyPoints</span>
-                <span class="method-start">295825 ms</span>
+                <span class="method-start">112303 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">i_SavedCards</span>
-                <span class="method-start">297726 ms</span>
+                <span class="method-start">112315 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">j_UserDetails</span>
-                <span class="method-start">301861 ms</span>
+                <span class="method-start">112328 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">k_ReferFriends</span>
-                <span class="method-start">304466 ms</span>
+                <span class="method-start">112340 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">Logout</span>
-                <span class="method-start">310944 ms</span>
+                <span class="method-start">112354 ms</span>
               </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.Gift</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">a_getlist</span>
-                <span class="method-start">318610 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">b_subscription</span>
-                <span class="method-start">318772 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">c_SingleBag</span>
-                <span class="method-start">323238 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">d_Virtual</span>
-                <span class="method-start">329976 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">e_ExplorerKit</span>
-                <span class="method-start">334823 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">f_recieved</span>
-                <span class="method-start">337874 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.About</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">a_About</span>
-                <span class="method-start">341072 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">b_AboutUs</span>
-                <span class="method-start">341253 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">c_OurStory</span>
-                <span class="method-start">348280 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">e_CoffeeCadmy</span>
-                <span class="method-start">352160 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">f_AccessReviews</span>
-                <span class="method-start">356377 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">g_PressKit</span>
-                <span class="method-start">367211 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.Help</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">a_Help</span>
-                <span class="method-start">381059 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">b_HelpCenter</span>
-                <span class="method-start">381125 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.Shop</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">a_getlist</span>
-                <span class="method-start">386472 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">b_Subscription</span>
-                <span class="method-start">386640 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">c_SingleBags</span>
-                <span class="method-start">394282 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">d_ColdBrew</span>
-                <span class="method-start">407298 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">e_CoffeeGear</span>
-                <span class="method-start">413409 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">f_VirtualTest</span>
-                <span class="method-start">419819 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">g_ExplorerKit</span>
-                <span class="method-start">437132 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.view_coffee</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">a</span>
-                <span class="method-start">447435 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">b</span>
-                <span class="method-start">477225 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.About</div> <!-- chronological-class-name -->
-              <div class="configuration-suite after">
-                <span class="method-name">close</span>
-                <span class="method-start">479238 ms</span>
-              </div> <!-- configuration-suite after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.Gift</div> <!-- chronological-class-name -->
-              <div class="configuration-suite after">
-                <span class="method-name">close</span>
-                <span class="method-start">481877 ms</span>
-              </div> <!-- configuration-suite after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.Help</div> <!-- chronological-class-name -->
-              <div class="configuration-suite after">
-                <span class="method-name">close</span>
-                <span class="method-start">486323 ms</span>
-              </div> <!-- configuration-suite after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestNG.SUSTAINABILITY</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">close</span>
-                <span class="method-start">489420 ms</span>
-              </div> <!-- configuration-suite after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.Shop</div> <!-- chronological-class-name -->
-              <div class="configuration-suite after">
-                <span class="method-name">close</span>
-                <span class="method-start">493048 ms</span>
+                <span class="method-start">112554 ms</span>
               </div> <!-- configuration-suite after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">TestNG.login</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">close</span>
-                <span class="method-start">495115 ms</span>
-              </div> <!-- configuration-suite after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">TestNG.view_coffee</div> <!-- chronological-class-name -->
-              <div class="configuration-suite after">
-                <span class="method-name">close</span>
-                <span class="method-start">497432 ms</span>
+                <span class="method-start">114417 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

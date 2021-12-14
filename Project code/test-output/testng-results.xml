@@ -1,277 +1,917 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="41" passed="41" failed="0" skipped="0">
+<testng-results ignored="0" total="17" passed="6" failed="11" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-14T10:34:54 IST" name="Suite" finished-at="2021-12-14T10:40:32 IST" duration-ms="337702">
+  <suite started-at="2021-12-14T11:57:01 IST" name="Suite" finished-at="2021-12-14T11:58:28 IST" duration-ms="86363">
     <groups>
     </groups>
-    <test started-at="2021-12-14T10:34:54 IST" name="Test" finished-at="2021-12-14T10:40:32 IST" duration-ms="337702">
-      <class name="TestNG.Gift">
-        <test-method is-config="true" signature="geturl()[pri:0, instance:TestNG.Gift@67a20f67]" started-at="2021-12-14T10:32:50 IST" name="geturl" finished-at="2021-12-14T10:33:10 IST" duration-ms="19801" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- geturl -->
-        <test-method is-config="true" signature="alert()[pri:0, instance:TestNG.Gift@67a20f67]" started-at="2021-12-14T10:34:55 IST" name="alert" finished-at="2021-12-14T10:34:55 IST" duration-ms="606" status="PASS">
+    <test started-at="2021-12-14T11:57:01 IST" name="Test1" finished-at="2021-12-14T11:58:24 IST" duration-ms="83027">
+      <class name="TestNG.SUSTAINABILITY">
+        <test-method is-config="true" signature="alert()[pri:0, instance:TestNG.SUSTAINABILITY@36c88a32]" started-at="2021-12-14T11:57:01 IST" name="alert" finished-at="2021-12-14T11:57:02 IST" duration-ms="551" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alert -->
-        <test-method signature="a_getlist()[pri:0, instance:TestNG.Gift@67a20f67]" started-at="2021-12-14T10:37:51 IST" name="a_getlist" finished-at="2021-12-14T10:37:52 IST" duration-ms="160" status="PASS">
+        <test-method signature="a_getlist()[pri:0, instance:TestNG.SUSTAINABILITY@36c88a32]" started-at="2021-12-14T11:57:02 IST" name="a_getlist" finished-at="2021-12-14T11:57:02 IST" duration-ms="141" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a_getlist -->
-        <test-method signature="b_subscription()[pri:0, instance:TestNG.Gift@67a20f67]" started-at="2021-12-14T10:37:52 IST" name="b_subscription" finished-at="2021-12-14T10:37:56 IST" duration-ms="4465" status="PASS">
+        <test-method signature="b_CoffeeStories()[pri:0, instance:TestNG.SUSTAINABILITY@36c88a32]" started-at="2021-12-14T11:57:02 IST" name="b_CoffeeStories" finished-at="2021-12-14T11:57:02 IST" duration-ms="214" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- b_subscription -->
-        <test-method signature="c_SingleBag()[pri:0, instance:TestNG.Gift@67a20f67]" started-at="2021-12-14T10:37:56 IST" name="c_SingleBag" finished-at="2021-12-14T10:38:03 IST" duration-ms="6737" status="PASS">
+        </test-method> <!-- b_CoffeeStories -->
+        <test-method signature="c_EcoFriendly()[pri:0, instance:TestNG.SUSTAINABILITY@36c88a32]" started-at="2021-12-14T11:57:02 IST" name="c_EcoFriendly" finished-at="2021-12-14T11:57:07 IST" duration-ms="4582" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- c_SingleBag -->
-        <test-method signature="d_Virtual()[pri:0, instance:TestNG.Gift@67a20f67]" started-at="2021-12-14T10:38:03 IST" name="d_Virtual" finished-at="2021-12-14T10:38:08 IST" duration-ms="4845" status="PASS">
+        </test-method> <!-- c_EcoFriendly -->
+        <test-method signature="d_BeanForBean()[pri:0, instance:TestNG.SUSTAINABILITY@36c88a32]" started-at="2021-12-14T11:57:07 IST" name="d_BeanForBean" finished-at="2021-12-14T11:57:10 IST" duration-ms="3291" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- d_Virtual -->
-        <test-method signature="e_ExplorerKit()[pri:0, instance:TestNG.Gift@67a20f67]" started-at="2021-12-14T10:38:08 IST" name="e_ExplorerKit" finished-at="2021-12-14T10:38:11 IST" duration-ms="3049" status="PASS">
+        </test-method> <!-- d_BeanForBean -->
+        <test-method signature="e_FarmerFeedback()[pri:0, instance:TestNG.SUSTAINABILITY@36c88a32]" started-at="2021-12-14T11:57:10 IST" name="e_FarmerFeedback" finished-at="2021-12-14T11:58:21 IST" duration-ms="71138" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- e_ExplorerKit -->
-        <test-method signature="f_recieved()[pri:0, instance:TestNG.Gift@67a20f67]" started-at="2021-12-14T10:38:11 IST" name="f_recieved" finished-at="2021-12-14T10:38:14 IST" duration-ms="3196" status="PASS">
+        </test-method> <!-- e_FarmerFeedback -->
+        <test-method signature="f_CarbonNatural()[pri:0, instance:TestNG.SUSTAINABILITY@36c88a32]" started-at="2021-12-14T11:58:21 IST" name="f_CarbonNatural" finished-at="2021-12-14T11:58:24 IST" duration-ms="3036" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f_recieved -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestNG.Gift@67a20f67]" started-at="2021-12-14T10:40:35 IST" name="close" finished-at="2021-12-14T10:40:39 IST" duration-ms="4446" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- TestNG.Gift -->
-      <class name="TestNG.Shop">
-        <test-method is-config="true" signature="geturl()[pri:0, instance:TestNG.Shop@13e39c73]" started-at="2021-12-14T10:33:54 IST" name="geturl" finished-at="2021-12-14T10:34:10 IST" duration-ms="16423" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- geturl -->
-        <test-method is-config="true" signature="alert()[pri:0, instance:TestNG.Shop@13e39c73]" started-at="2021-12-14T10:34:57 IST" name="alert" finished-at="2021-12-14T10:34:58 IST" duration-ms="1086" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- alert -->
-        <test-method signature="a_getlist()[pri:0, instance:TestNG.Shop@13e39c73]" started-at="2021-12-14T10:38:59 IST" name="a_getlist" finished-at="2021-12-14T10:38:59 IST" duration-ms="166" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- a_getlist -->
-        <test-method signature="b_Subscription()[pri:0, instance:TestNG.Shop@13e39c73]" started-at="2021-12-14T10:38:59 IST" name="b_Subscription" finished-at="2021-12-14T10:39:07 IST" duration-ms="7641" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- b_Subscription -->
-        <test-method signature="c_SingleBags()[pri:0, instance:TestNG.Shop@13e39c73]" started-at="2021-12-14T10:39:07 IST" name="c_SingleBags" finished-at="2021-12-14T10:39:20 IST" duration-ms="13014" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- c_SingleBags -->
-        <test-method signature="d_ColdBrew()[pri:0, instance:TestNG.Shop@13e39c73]" started-at="2021-12-14T10:39:20 IST" name="d_ColdBrew" finished-at="2021-12-14T10:39:26 IST" duration-ms="6110" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- d_ColdBrew -->
-        <test-method signature="e_CoffeeGear()[pri:0, instance:TestNG.Shop@13e39c73]" started-at="2021-12-14T10:39:26 IST" name="e_CoffeeGear" finished-at="2021-12-14T10:39:33 IST" duration-ms="6410" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- e_CoffeeGear -->
-        <test-method signature="f_VirtualTest()[pri:0, instance:TestNG.Shop@13e39c73]" started-at="2021-12-14T10:39:33 IST" name="f_VirtualTest" finished-at="2021-12-14T10:39:50 IST" duration-ms="17312" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f_VirtualTest -->
-        <test-method signature="g_ExplorerKit()[pri:0, instance:TestNG.Shop@13e39c73]" started-at="2021-12-14T10:39:50 IST" name="g_ExplorerKit" finished-at="2021-12-14T10:40:00 IST" duration-ms="10302" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- g_ExplorerKit -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestNG.Shop@13e39c73]" started-at="2021-12-14T10:40:46 IST" name="close" finished-at="2021-12-14T10:40:48 IST" duration-ms="2067" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- TestNG.Shop -->
-      <class name="TestNG.About">
-        <test-method is-config="true" signature="geturl()[pri:0, instance:TestNG.About@57c758ac]" started-at="2021-12-14T10:32:33 IST" name="geturl" finished-at="2021-12-14T10:32:50 IST" duration-ms="17449" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- geturl -->
-        <test-method is-config="true" signature="alert()[pri:0, instance:TestNG.About@57c758ac]" started-at="2021-12-14T10:34:54 IST" name="alert" finished-at="2021-12-14T10:34:55 IST" duration-ms="559" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- alert -->
-        <test-method signature="a_About()[pri:0, instance:TestNG.About@57c758ac]" started-at="2021-12-14T10:38:14 IST" name="a_About" finished-at="2021-12-14T10:38:14 IST" duration-ms="179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- a_About -->
-        <test-method signature="b_AboutUs()[pri:0, instance:TestNG.About@57c758ac]" started-at="2021-12-14T10:38:14 IST" name="b_AboutUs" finished-at="2021-12-14T10:38:21 IST" duration-ms="7026" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- b_AboutUs -->
-        <test-method signature="c_OurStory()[pri:0, instance:TestNG.About@57c758ac]" started-at="2021-12-14T10:38:21 IST" name="c_OurStory" finished-at="2021-12-14T10:38:25 IST" duration-ms="3878" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- c_OurStory -->
-        <test-method signature="e_CoffeeCadmy()[pri:0, instance:TestNG.About@57c758ac]" started-at="2021-12-14T10:38:25 IST" name="e_CoffeeCadmy" finished-at="2021-12-14T10:38:29 IST" duration-ms="4216" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- e_CoffeeCadmy -->
-        <test-method signature="f_AccessReviews()[pri:0, instance:TestNG.About@57c758ac]" started-at="2021-12-14T10:38:29 IST" name="f_AccessReviews" finished-at="2021-12-14T10:38:40 IST" duration-ms="10833" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f_AccessReviews -->
-        <test-method signature="g_PressKit()[pri:0, instance:TestNG.About@57c758ac]" started-at="2021-12-14T10:38:40 IST" name="g_PressKit" finished-at="2021-12-14T10:38:54 IST" duration-ms="13846" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- g_PressKit -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestNG.About@57c758ac]" started-at="2021-12-14T10:40:32 IST" name="close" finished-at="2021-12-14T10:40:35 IST" duration-ms="2639" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- TestNG.About -->
-      <class name="TestNG.Help">
-        <test-method is-config="true" signature="geturl()[pri:0, instance:TestNG.Help@a9cd3b1]" started-at="2021-12-14T10:33:10 IST" name="geturl" finished-at="2021-12-14T10:33:33 IST" duration-ms="22676" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- geturl -->
-        <test-method is-config="true" signature="alert()[pri:0, instance:TestNG.Help@a9cd3b1]" started-at="2021-12-14T10:34:55 IST" name="alert" finished-at="2021-12-14T10:34:56 IST" duration-ms="631" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- alert -->
-        <test-method signature="a_Help()[pri:0, instance:TestNG.Help@a9cd3b1]" started-at="2021-12-14T10:38:54 IST" name="a_Help" finished-at="2021-12-14T10:38:54 IST" duration-ms="64" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- a_Help -->
-        <test-method signature="b_HelpCenter()[pri:0, instance:TestNG.Help@a9cd3b1]" started-at="2021-12-14T10:38:54 IST" name="b_HelpCenter" finished-at="2021-12-14T10:38:59 IST" duration-ms="5345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- b_HelpCenter -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestNG.Help@a9cd3b1]" started-at="2021-12-14T10:40:39 IST" name="close" finished-at="2021-12-14T10:40:42 IST" duration-ms="3097" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- TestNG.Help -->
+        </test-method> <!-- f_CarbonNatural -->
+      </class> <!-- TestNG.SUSTAINABILITY -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-12-14T11:58:24 IST" name="Test2" finished-at="2021-12-14T11:58:28 IST" duration-ms="3225">
       <class name="TestNG.login">
-        <test-method is-config="true" signature="geturl()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:34:10 IST" name="geturl" finished-at="2021-12-14T10:34:31 IST" duration-ms="21171" status="PASS">
+        <test-method is-config="true" signature="geturl()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:56:48 IST" name="geturl" finished-at="2021-12-14T11:57:01 IST" duration-ms="13288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- geturl -->
-        <test-method is-config="true" signature="alert()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:34:58 IST" name="alert" finished-at="2021-12-14T10:34:58 IST" duration-ms="855" status="PASS">
+        <test-method is-config="true" signature="alert()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:58:24 IST" name="alert" finished-at="2021-12-14T11:58:25 IST" duration-ms="899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- alert -->
-        <test-method signature="a_login()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:36:15 IST" name="a_login" finished-at="2021-12-14T10:36:30 IST" duration-ms="15240" status="PASS">
+        <test-method signature="a_login()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:58:25 IST" name="a_login" finished-at="2021-12-14T11:58:27 IST" duration-ms="2168" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #username
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=id, value=username}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #username
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=id, value=username}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+at org.openqa.selenium.By$ById.findElement(By.java:188)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TestNG.login.a_login(login.java:54)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- a_login -->
-        <test-method signature="b_Dashboard()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:36:30 IST" name="b_Dashboard" finished-at="2021-12-14T10:36:42 IST" duration-ms="11213" status="PASS">
+        <test-method signature="b_Dashboard()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:58:27 IST" name="b_Dashboard" finished-at="2021-12-14T11:58:27 IST" duration-ms="11" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[2]/div/div[1]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[2]/div/div[1]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[2]/div/div[1]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[2]/div/div[1]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TestNG.login.b_Dashboard(login.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- b_Dashboard -->
-        <test-method signature="c_shippingAddress()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:36:42 IST" name="c_shippingAddress" finished-at="2021-12-14T10:37:06 IST" duration-ms="24039" status="PASS">
+        <test-method signature="c_shippingAddress()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:58:27 IST" name="c_shippingAddress" finished-at="2021-12-14T11:58:27 IST" duration-ms="11" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[2]/div/div[2]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[2]/div/div[2]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[2]/div/div[2]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[2]/div/div[2]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TestNG.login.c_shippingAddress(login.java:78)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- c_shippingAddress -->
-        <test-method signature="d_Billingaddress()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:37:06 IST" name="d_Billingaddress" finished-at="2021-12-14T10:37:20 IST" duration-ms="14255" status="PASS">
+        <test-method signature="d_Billingaddress()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:58:27 IST" name="d_Billingaddress" finished-at="2021-12-14T11:58:27 IST" duration-ms="14" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[3]/div[1]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[3]/div[1]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[3]/div[1]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/div/div[3]/div[1]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TestNG.login.d_Billingaddress(login.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- d_Billingaddress -->
-        <test-method signature="e_Subscription()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:37:20 IST" name="e_Subscription" finished-at="2021-12-14T10:37:24 IST" duration-ms="4260" status="PASS">
+        <test-method signature="e_Subscription()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:58:27 IST" name="e_Subscription" finished-at="2021-12-14T11:58:28 IST" duration-ms="12" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[1]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[1]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[1]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[1]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TestNG.login.e_Subscription(login.java:170)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- e_Subscription -->
-        <test-method signature="f_Orders()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:37:24 IST" name="f_Orders" finished-at="2021-12-14T10:37:27 IST" duration-ms="2530" status="PASS">
+        <test-method signature="f_Orders()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:58:28 IST" name="f_Orders" finished-at="2021-12-14T11:58:28 IST" duration-ms="9" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[1]/div[1]/div[8]/main/article/div/div/nav/ul/li[3]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[8]/main/article/div/div/nav/ul/li[3]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[8]/main/article/div/div/nav/ul/li[3]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[8]/main/article/div/div/nav/ul/li[3]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TestNG.login.f_Orders(login.java:183)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f_Orders -->
-        <test-method signature="g_ColdBrew()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:37:27 IST" name="g_ColdBrew" finished-at="2021-12-14T10:37:29 IST" duration-ms="1806" status="PASS">
+        <test-method signature="g_ColdBrew()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:58:28 IST" name="g_ColdBrew" finished-at="2021-12-14T11:58:28 IST" duration-ms="10" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[5]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[5]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[5]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[5]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TestNG.login.g_ColdBrew(login.java:191)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- g_ColdBrew -->
-        <test-method signature="h_MyPoints()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:37:29 IST" name="h_MyPoints" finished-at="2021-12-14T10:37:30 IST" duration-ms="1899" status="PASS">
+        <test-method signature="h_MyPoints()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:58:28 IST" name="h_MyPoints" finished-at="2021-12-14T11:58:28 IST" duration-ms="10" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[6]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[6]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[6]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[6]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TestNG.login.h_MyPoints(login.java:198)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- h_MyPoints -->
-        <test-method signature="i_SavedCards()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:37:30 IST" name="i_SavedCards" finished-at="2021-12-14T10:37:35 IST" duration-ms="4134" status="PASS">
+        <test-method signature="i_SavedCards()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:58:28 IST" name="i_SavedCards" finished-at="2021-12-14T11:58:28 IST" duration-ms="11" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[7]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[7]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[7]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[7]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TestNG.login.i_SavedCards(login.java:204)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- i_SavedCards -->
-        <test-method signature="j_UserDetails()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:37:35 IST" name="j_UserDetails" finished-at="2021-12-14T10:37:37 IST" duration-ms="2604" status="PASS">
+        <test-method signature="j_UserDetails()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:58:28 IST" name="j_UserDetails" finished-at="2021-12-14T11:58:28 IST" duration-ms="9" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[8]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[8]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[8]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[8]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TestNG.login.j_UserDetails(login.java:209)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- j_UserDetails -->
-        <test-method signature="k_ReferFriends()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:37:37 IST" name="k_ReferFriends" finished-at="2021-12-14T10:37:44 IST" duration-ms="6477" status="PASS">
+        <test-method signature="k_ReferFriends()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:58:28 IST" name="k_ReferFriends" finished-at="2021-12-14T11:58:28 IST" duration-ms="11" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[9]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[9]/a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[9]/a
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/div[1]/div[7]/main/article/div/div/nav/ul/li[9]/a}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TestNG.login.k_ReferFriends(login.java:216)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- k_ReferFriends -->
-        <test-method is-config="true" signature="Logout()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:37:44 IST" name="Logout" finished-at="2021-12-14T10:37:51 IST" duration-ms="7665" status="PASS">
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:58:28 IST" name="Logout" finished-at="2021-12-14T11:58:28 IST" duration-ms="8" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: /html/body/div[1]/header/div/nav[2]/div/ul/li[3]/a/span
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/header/div/nav[2]/div/ul/li[3]/a/span}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/header/div/nav[2]/div/ul/li[3]/a/span
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-EFR18P0', ip: '192.168.184.180', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211212185725, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 6076, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4015890f-7864-4f7a-9722-b5d6e1329b80
+*** Element info: {Using=xpath, value=/html/body/div[1]/header/div/nav[2]/div/ul/li[3]/a/span}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at TestNG.login.Logout(login.java:223)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestNG.login@2667f029]" started-at="2021-12-14T10:40:48 IST" name="close" finished-at="2021-12-14T10:40:50 IST" duration-ms="2317" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestNG.login@15c43bd9]" started-at="2021-12-14T11:58:30 IST" name="close" finished-at="2021-12-14T11:58:31 IST" duration-ms="1613" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- TestNG.login -->
       <class name="TestNG.SUSTAINABILITY">
-        <test-method is-config="true" signature="geturl()[pri:0, instance:TestNG.SUSTAINABILITY@17046283]" started-at="2021-12-14T10:33:33 IST" name="geturl" finished-at="2021-12-14T10:33:54 IST" duration-ms="21217" status="PASS">
+        <test-method is-config="true" signature="geturl()[pri:0, instance:TestNG.SUSTAINABILITY@36c88a32]" started-at="2021-12-14T11:56:35 IST" name="geturl" finished-at="2021-12-14T11:56:48 IST" duration-ms="12714" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- geturl -->
-        <test-method is-config="true" signature="alert()[pri:0, instance:TestNG.SUSTAINABILITY@17046283]" started-at="2021-12-14T10:34:56 IST" name="alert" finished-at="2021-12-14T10:34:57 IST" duration-ms="630" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- alert -->
-        <test-method signature="a_getlist()[pri:0, instance:TestNG.SUSTAINABILITY@17046283]" started-at="2021-12-14T10:34:59 IST" name="a_getlist" finished-at="2021-12-14T10:34:59 IST" duration-ms="187" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- a_getlist -->
-        <test-method signature="b_CoffeeStories()[pri:0, instance:TestNG.SUSTAINABILITY@17046283]" started-at="2021-12-14T10:34:59 IST" name="b_CoffeeStories" finished-at="2021-12-14T10:34:59 IST" duration-ms="216" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- b_CoffeeStories -->
-        <test-method signature="c_EcoFriendly()[pri:0, instance:TestNG.SUSTAINABILITY@17046283]" started-at="2021-12-14T10:34:59 IST" name="c_EcoFriendly" finished-at="2021-12-14T10:35:05 IST" duration-ms="6035" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- c_EcoFriendly -->
-        <test-method signature="d_BeanForBean()[pri:0, instance:TestNG.SUSTAINABILITY@17046283]" started-at="2021-12-14T10:35:05 IST" name="d_BeanForBean" finished-at="2021-12-14T10:35:10 IST" duration-ms="4233" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- d_BeanForBean -->
-        <test-method signature="e_FarmerFeedback()[pri:0, instance:TestNG.SUSTAINABILITY@17046283]" started-at="2021-12-14T10:35:10 IST" name="e_FarmerFeedback" finished-at="2021-12-14T10:36:00 IST" duration-ms="50234" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- e_FarmerFeedback -->
-        <test-method signature="f_CarbonNatural()[pri:0, instance:TestNG.SUSTAINABILITY@17046283]" started-at="2021-12-14T10:36:00 IST" name="f_CarbonNatural" finished-at="2021-12-14T10:36:08 IST" duration-ms="7752" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f_CarbonNatural -->
-        <test-method signature="g_PriceTrabsparency()[pri:0, instance:TestNG.SUSTAINABILITY@17046283]" started-at="2021-12-14T10:36:08 IST" name="g_PriceTrabsparency" finished-at="2021-12-14T10:36:15 IST" duration-ms="7591" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- g_PriceTrabsparency -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestNG.SUSTAINABILITY@17046283]" started-at="2021-12-14T10:40:42 IST" name="close" finished-at="2021-12-14T10:40:46 IST" duration-ms="3628" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:TestNG.SUSTAINABILITY@36c88a32]" started-at="2021-12-14T11:58:28 IST" name="close" finished-at="2021-12-14T11:58:30 IST" duration-ms="1863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- TestNG.SUSTAINABILITY -->
-      <class name="TestNG.view_coffee">
-        <test-method is-config="true" signature="geturl()[pri:0, instance:TestNG.view_coffee@64cd705f]" started-at="2021-12-14T10:34:31 IST" name="geturl" finished-at="2021-12-14T10:34:54 IST" duration-ms="22655" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- geturl -->
-        <test-method is-config="true" signature="alert()[pri:0, instance:TestNG.view_coffee@64cd705f]" started-at="2021-12-14T10:34:58 IST" name="alert" finished-at="2021-12-14T10:34:59 IST" duration-ms="375" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- alert -->
-        <test-method signature="a()[pri:0, instance:TestNG.view_coffee@64cd705f]" started-at="2021-12-14T10:40:00 IST" name="a" finished-at="2021-12-14T10:40:30 IST" duration-ms="29789" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- a -->
-        <test-method signature="b()[pri:0, instance:TestNG.view_coffee@64cd705f]" started-at="2021-12-14T10:40:30 IST" name="b" finished-at="2021-12-14T10:40:32 IST" duration-ms="1870" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- b -->
-        <test-method is-config="true" signature="close()[pri:0, instance:TestNG.view_coffee@64cd705f]" started-at="2021-12-14T10:40:50 IST" name="close" finished-at="2021-12-14T10:40:52 IST" duration-ms="1587" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- TestNG.view_coffee -->
-    </test> <!-- Test -->
+    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -5,8 +5,8 @@
     <classes>
       <class name="TestNG.SUSTAINABILITY">
         <methods>
+          <include name="g_PriceTrabsparency"/>
           <include name="close"/>
-          <include name="e_FarmerFeedback"/>
           <include name="geturl"/>
           <include name="alert"/>
         </methods>

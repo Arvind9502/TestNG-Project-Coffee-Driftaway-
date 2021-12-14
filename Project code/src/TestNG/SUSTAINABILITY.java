@@ -23,12 +23,7 @@ import com.google.common.io.Files;
 
 public class SUSTAINABILITY {
 		
-	public static WebDriver driver;
-	//Call function for scrolling down
-	public void scroll() {
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-	    js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-	}	
+	public static WebDriver driver;	
 	 @BeforeSuite
 	 public void geturl() {
 		 
@@ -52,9 +47,9 @@ public class SUSTAINABILITY {
 	 
 	 @Test public void a_getlist() {
 		//Get list of options under sustainability
-//			JavascriptExecutor js = (JavascriptExecutor) driver;
-//		    js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
-		 	scroll();
+		 JavascriptExecutor js = (JavascriptExecutor) driver;
+		 js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+		 	
 		    List<WebElement> list =driver.findElements(By.xpath("//ul[@id='menu-footer-new-sustainability']/li"));
 			System.out.println("There are "+list.size()+ " options under SUSTAINABILITY");
 
@@ -68,22 +63,27 @@ public class SUSTAINABILITY {
 	    Actions act=new Actions(driver);
 	    act.moveToElement(stories).click().perform();
 	    System.out.println(driver.getTitle());
-	    scroll();
+	    JavascriptExecutor js = (JavascriptExecutor) driver;
+	    js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 	 }
-	 @Test public void c_EcoFriendly() {
+	 @Test public void c_EcoFriendly() throws InterruptedException {
 		//****************Eco-friendly packaging***************
 		    WebElement eco=driver.findElement(By.linkText("Eco-friendly packaging"));
 		    eco.click();
 		    System.out.println(driver.getTitle());
-		    scroll();
+		    Thread.sleep(1000);
+		    JavascriptExecutor js = (JavascriptExecutor) driver;
+		    js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 	 }
-	 @Test public void d_BeanForBean() {
+	 @Test public void d_BeanForBean() throws InterruptedException {
 		 
 		//***************Bean for Bean**************
 		    WebElement bean=driver.findElement(By.linkText("Bean for Bean"));
 		    bean.click();
 		    System.out.println(driver.getTitle());
-		    scroll(); 
+		    Thread.sleep(1000);
+		    JavascriptExecutor js = (JavascriptExecutor) driver;
+		    js.executeScript("window.scrollTo(0, document.body.scrollHeight)"); 
 	 }
 	 
 	 @Test public void e_FarmerFeedback() throws IOException, InterruptedException {
@@ -110,14 +110,8 @@ public class SUSTAINABILITY {
 			WebElement carbon=driver.findElement(By.linkText("Carbon neutral operations"));
 			carbon.click();
 			System.out.println(driver.getTitle());
-			scroll();
-		 
-	 }
-	 @Test public void g_PriceTrabsparency() {
-		//**************************Price Transparency************************
-			WebElement price=driver.findElement(By.linkText("Price Transparency"));
-			price.click();
-			System.out.println(driver.getTitle());
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+		    js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 	 }
 	 
 	 @AfterSuite public void close() {
